@@ -1,0 +1,27 @@
+{
+    "name": "ajf/newtype",
+    "type": "library",
+    "description": "A handy function for creating opaque types",
+    "keywords": ["php7"],
+    "homepage": "http://github.com/TazeTSchnitzel/newType",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Andrea Faulds",
+            "email": "ajf@ajf.me",
+            "homepage": "http://ajf.me/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": [
+            "newType.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
