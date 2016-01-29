@@ -75,7 +75,7 @@ function newType(string $newTypeName, string $wrappedTypeName) /* : void */ {
 
     // On the other hand, we need to have a leading slash for the wrapped
     // name, since our type hint must be absolute; 
-    if ($wrappedTypeName[0] !== '\\' && !isset(VALID_TYPE_NAME_CHARS[$wrappedTypeName])) {
+    if ($wrappedTypeName[0] !== '\\' && !array_key_exists($wrappedTypeName, TYPE_HINT_NAMES)) {
         $wrappedTypeName = '\\' . $wrappedTypeName;
     }
 
