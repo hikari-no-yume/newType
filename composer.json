@@ -4,7 +4,7 @@
     "description": "A handy function for creating opaque types",
     "keywords": ["php7"],
     "homepage": "http://github.com/TazeTSchnitzel/newType",
-    "license": "LGPLv3",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Andrea Faulds",
